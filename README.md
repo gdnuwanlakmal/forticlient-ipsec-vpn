@@ -1,4 +1,23 @@
-# Configuring an IPsec VPN connection
+# 🔐 FortiGate IPsec VPN Tunnel
+
+A FortiGate IPsec VPN tunnel provides a secure, encrypted connection between remote users or networks and the FortiGate firewall. It uses industry-standard IPsec (Internet Protocol Security) to protect data in transit over the internet.
+
+### There are two main types:
+
+* Site-to-Site VPN: Connects two networks securely (e.g., branch to HQ).
+
+* Dial-up VPN (Remote Access): Allows remote users (e.g., employees) to securely connect to the corporate network using FortiClient or other VPN clients.
+
+### Key Features:
+
+Strong encryption (AES, SHA, etc.)
+
+User authentication (local, LDAP, RADIUS)
+
+Optional split tunneling for optimized traffic flow
+
+Compatible with FortiClient and third-party clients
+
 ## Create User Group for Tunnel
 ```shell
 config user group

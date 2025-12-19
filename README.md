@@ -1,3 +1,11 @@
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/2717e193-16a6-4886-b904-aa4f038a5d08"
+    width="300"
+  />
+  <br />
+</p>
+
 # 🔐 FortiGate IPsec VPN Tunnel
 
 A FortiGate IPsec VPN tunnel provides a secure, encrypted connection between remote users or networks and the FortiGate firewall. It uses industry-standard IPsec (Internet Protocol Security) to protect data in transit over the internet.
